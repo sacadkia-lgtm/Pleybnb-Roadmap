@@ -12,7 +12,6 @@
   --gold-2:#ffb300;
   --muted:rgba(255,255,255,0.75);
 }
-
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{height:100%}
 
@@ -27,7 +26,7 @@ body{
   overflow:hidden;
 }
 
-/* ---------- Background ---------- */
+/* Background */
 .bg{
   position:fixed;
   inset:0;
@@ -53,7 +52,7 @@ body{
   100%{transform:translateX(0)}
 }
 
-/* ---------- Layout ---------- */
+/* Layout */
 .wrap{
   position:relative;
   z-index:2;
@@ -69,7 +68,7 @@ body{
 
 .title{
   text-align:center;
-  font-size:clamp(32px,5.5vw,56px);
+  font-size:clamp(34px,5.8vw,58px);
   font-weight:900;
   color:var(--gold-1);
 }
@@ -77,39 +76,34 @@ body{
   text-align:center;
   margin-top:12px;
   color:var(--muted);
-  font-size:17px;
+  font-size:18px;
 }
 
-/* ---------- Roadmap Cards ---------- */
+/* Roadmap */
 .roadmap{
   margin-top:42px;
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
   gap:26px;
 }
-
 .phase{
   background:rgba(255,255,255,0.02);
   border-radius:14px;
-  padding:28px;
+  padding:30px;
   border:1px solid rgba(255,255,255,0.04);
 }
-
 .phase h3{
-  font-size:24px;
+  font-size:26px;
   font-weight:800;
   color:var(--gold-1);
-  margin-bottom:14px;
+  margin-bottom:16px;
 }
-
 .phase p{
-  font-size:16.5px;
-  line-height:1.75;
+  font-size:17px;
+  line-height:1.8;
   color:var(--muted);
-  margin-bottom:18px;
+  margin-bottom:20px;
 }
-
-/* Progress bar */
 .progress{
   height:8px;
   background:rgba(255,255,255,0.08);
@@ -133,45 +127,64 @@ body{
   <div class="card">
 
     <div class="title">PlayBNB Project Roadmap</div>
-    <div class="subtitle">Strategic development phases of the PlayBNB ecosystem</div>
+    <div class="subtitle">
+      Long-term vision and structured development path of the PlayBNB ecosystem
+    </div>
 
     <div class="roadmap">
 
       <!-- Phase 1 -->
       <div class="phase">
-        <h3>Phase 1 — Foundation</h3>
+        <h3>Phase 1 — Foundation & Launch</h3>
         <p>
-          Initial project setup, smart contract development, PlayBNB token deployment,
-          community launch, brand positioning, and early ecosystem infrastructure.
+          This phase focuses on establishing the core foundation of the PlayBNB project.
+          It includes the complete design and deployment of smart contracts, PlayBNB token
+          creation, security reviews, and initial blockchain integration. During this stage,
+          the team concentrates on building trust through transparency, documentation, and
+          open communication with early supporters.
         </p>
-        <div class="progress">
-          <span style="width:100%"></span>
-        </div>
+        <p>
+          Community channels are launched and moderated, brand identity is finalized, and
+          early contributors are onboarded. The objective of Phase 1 is to ensure that the
+          PlayBNB ecosystem starts with a solid technical and strategic base, minimizing risks
+          and ensuring long-term sustainability.
+        </p>
+        <div class="progress"><span style="width:100%"></span></div>
       </div>
 
       <!-- Phase 2 -->
       <div class="phase">
-        <h3>Phase 2 — Expansion</h3>
+        <h3>Phase 2 — Expansion & Adoption</h3>
         <p>
-          Token listing on decentralized platforms, liquidity growth, structured airdrop
-          campaigns, platform upgrades, and onboarding of early Play-to-Earn features.
+          Phase 2 marks the expansion of PlayBNB into active market participation. This phase
+          includes token listing on decentralized platforms, liquidity provisioning, and
+          structured airdrop campaigns designed to reward early adopters and active community
+          members.
         </p>
-        <div class="progress">
-          <span style="width:60%"></span>
-        </div>
+        <p>
+          Platform upgrades are introduced to improve user experience, enhance performance,
+          and prepare the ecosystem for Play-to-Earn mechanics. Strategic partnerships and
+          marketing initiatives are executed to increase visibility and attract new users,
+          while maintaining a fair and organic growth model.
+        </p>
+        <div class="progress"><span style="width:60%"></span></div>
       </div>
 
       <!-- Phase 3 -->
       <div class="phase">
-        <h3>Phase 3 — Gaming & Growth</h3>
+        <h3>Phase 3 — Gaming, Growth & Ecosystem Scaling</h3>
         <p>
-          Activation of advanced gaming mechanics, PlayBNB mining systems, reward
-          distribution models, global partnerships, and long-term scaling of the
-          Web3 gaming ecosystem.
+          This phase focuses on expanding PlayBNB into a full Web3 gaming ecosystem.
+          Advanced gaming mechanics, in-game economies, and PlayBNB mining systems are
+          activated to deliver long-term engagement and real utility for players.
         </p>
-        <div class="progress">
-          <span style="width:30%"></span>
-        </div>
+        <p>
+          The ecosystem is scaled through global partnerships, continuous game development,
+          reward distribution models, and long-term governance planning. The ultimate goal
+          is to position PlayBNB as a sustainable, community-driven Web3 gaming platform
+          with balanced tokenomics and real-world adoption.
+        </p>
+        <div class="progress"><span style="width:30%"></span></div>
       </div>
 
     </div>
